@@ -3,257 +3,9 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title></title>
-	<style type="text/css">
+	<title>DZ11.12</DZ11></title>
+  <link rel="stylesheet" href="css/style.css">
 
-		.foto {
-      background-image:url("ukr.jpg") ;
-      display: flex; 
-		}
-		.p1 {
-			font-family: "Helvetica", bold;
-			border: 5px solid blue;
-			padding: 50px;
-			margin: 50px;
-			color:#0844a4;
-		}
-		.p2 {
-       font-family: "Helvetica", bold;
-			 margin-left:300px;
-			 color: #606060;
-       width: 100%;
-		}
-    .p3 {
-       padding: 10px;
-		   width: 600px;
-		   height: 50px;
-		   color:#0844a4;
-		}
-		.p4 {
-			color: #606060;
-      padding-left: 40px;
-		}
-		.p5 {
-			text-align: center;
-		}
-
-		.b1 {
-			text-align: center;
-			padding-left: 390px;
-			color:#0844a4;
-  		}
-		.b2 {
-			font-family: "Helvetica", bold;
-			text-align: center;
-			color:#0844a4;
-		}
-     .b3{
-      margin-top: 75px;   
-      color: #606060;
-    }
-		.container { 
-		  display: flex;
-		  justify-content: center;
-		  width: 100%;
-		  color: blue;
-		  padding: 150px;
-	  }
-		 
-		.container2{
-		 	display: flex;
-		 	padding-left: 50px; 
-		}
-		.container3{
-			font-family: "Helvetica", bold;
-			display: flex;
-			justify-content: center;
-			height: 60px;
-			gap: 15px;
-      grid-column-gap: 130px;
-      width: 1100px;
-      margin-left: 200px;
-      color: #606060;
-    }
-    .container3>* {
-	    text-align: center;
-	    width: 400px;
-	    height: 250px;
-	    border: 2px solid darkblue;
-    }
-     .container4{
-      font-family: "Helvetica", bold;
-      display: flex;
-			justify-content: center;
-			height: 65px;
-			gap: 15px;
-      grid-column-gap: 50px;
-      margin-top: 200px;
-      width: 1500px;
-    }
-      .container4>* {
-	     text-align: center;
-	     width: 4%;
-	     height: 15px;
-	     border: 2px solid darkblue;
-	     border-radius: 20px;
-    }
-      .container5{
-        font-family: "Helvetica", bold;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: auto ;
-        grid-template-areas: " one three " " four two";
-        grid-row-gap: 30px;
-        grid-column-gap: 10px;
-        margin-left: 50px;
-        margin-right: 50px;
-
-    }
-        .item_a {
-	        grid-area: one ;
-	        border: 2px solid grey;
-          height: 100px;
-          margin-right: 150px;
-             }
-        .item_b {
- 	        grid-area: two ;
-          border: 2px solid grey ;
-	        height: 100px;
-	        margin-left: 150px;
-             }
-         
-        .item_c {
-           text-align: center;
- 	         grid-area: three ;    
-	         height: 100px;
-	         margin-right: 350px;
-	         padding: 10px;
-	         color:#606060 ;
-              }
-        .item_d {
-           text-align: center;
- 	         grid-area: four ;    
-	         height: 100px;
-	         margin-left: 350px;
-	         color:#606060;
-
-              }
-
-        .button{
-            font-family: "Helvetica", bold;
-		      	background-color: blue;
-			      text-align: center;
-		        margin-left: 120px;
-		        height: 35px;
-              }
-         a {text-decoration: none;
-              }
-		    .navi a{
-			      font-family: "Helvetica", bold;
-            float: right;
-            color: #0844a4;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-            font-size: 17px;
-         }
-		    .navi a:hover { 
-			      background-color: #0844a4;
-            color: white;
-	    	}
-		    .element { 
-	       	  font-family: "Helvetica", bold;
-            height: 200px;
-            background:radial-gradient(white 40%, transparent 41%),radial-gradient(black 40% 42%, transparent 41%), conic-gradient( from 10deg, red 0% 30%, yellow 30% 45%, green 45% 70%, blue 70% );
-            margin: 10px;
-            border-radius: 100%;
-            border: 2px solid black;
-
-          }
-
-        
-        .dot {
-            height: 25px;
-            width: 25px;
-            background-color: #bbb;
-            border-radius: 50%;
-            display: inline-block;
-          }
-        .m1 {
-          	font-family: "Helvetica", bold;
-          	padding-top: 35px;
-	          display: flex;
-		        justify-content: center;
-		        width: 100%;		  
-		        height: 100px; 
-          }
-        .m2 {
-         	 font-family: "Helvetica", bold;
-           display: flex;
-		       justify-content: center;
-		       align-items: center;
-		       width: 100%;		  
-		       height: 50px; 
-		       grid-column-gap: 10px;
-         }
-
-	      .social-icons {
-           display: flex;
-           justify-content: center;
-           list-style: none;
-           margin-top: 1rem;
-           margin-bottom: 1rem;
-           padding-left: 0;
-         }
-        .social-icons>li {
-           margin-left: 0.25rem;
-           margin-right: 0.25rem;
-         }
-        .social-icons a {
-          position: relative;
-          background-color: #eee;
-          display: block;
-         transition: background-color .3s ease-in-out;
-         width: 2.5rem;
-         height: 2.5rem;
-         border-radius: .25rem;
-        }
-       .social-icons a:hover {
-         background-color: #e0e0e0;
-        }
-       .social-icons a::before {
-         content: "";
-         position: absolute;
-         width: 1.2rem;
-         height: 1.2rem;
-         left: .65rem;
-         top: .65rem;
-         background: transparent no-repeat center center;
-         background-size: 100% 100%;
-       }
-      .social-icons .social-icon-twitter::before {
-         background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath fill='%231da1f2' d='M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z'/%3E%3C/svg%3E");
-        }
-
-       .social-icons .social-icon-fb::before {
-         background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 512'%3E%3Cpath fill='%234267B2' d='M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z'/%3E%3C/svg%3E");
-        }
-
-       .social-icons .social-icon-vk::before {
-         background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 576 512'%3E%3Cpath fill='%232787f5' d='M545 117.7c3.7-12.5 0-21.7-17.8-21.7h-58.9c-15 0-21.9 7.9-25.6 16.7 0 0-30 73.1-72.4 120.5-13.7 13.7-20 18.1-27.5 18.1-3.7 0-9.4-4.4-9.4-16.9V117.7c0-15-4.2-21.7-16.6-21.7h-92.6c-9.4 0-15 7-15 13.5 0 14.2 21.2 17.5 23.4 57.5v86.8c0 19-3.4 22.5-10.9 22.5-20 0-68.6-73.4-97.4-157.4-5.8-16.3-11.5-22.9-26.6-22.9H38.8c-16.8 0-20.2 7.9-20.2 16.7 0 15.6 20 93.1 93.1 195.5C160.4 378.1 229 416 291.4 416c37.5 0 42.1-8.4 42.1-22.9 0-66.8-3.4-73.1 15.4-73.1 8.7 0 23.7 4.4 58.7 38.1 40 40 46.6 57.9 69 57.9h58.9c16.8 0 25.3-8.4 20.4-25-11.2-34.9-86.9-106.7-90.3-111.5-8.7-11.2-6.2-16.2 0-26.2.1-.1 72-101.3 79.4-135.6z'/%3E%3C/svg%3E");
-        }
-
-       .social-icons .social-icon-telegram::before {
-         background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512'%3E%3Cpath fill='%2327a7e7' d='M446.7 98.6l-67.6 318.8c-5.1 22.5-18.4 28.1-37.3 17.5l-103-75.9-49.7 47.8c-5.5 5.5-10.1 10.1-20.7 10.1l7.4-104.9 190.9-172.5c8.3-7.4-1.8-11.5-12.9-4.1L117.8 284 16.2 252.2c-22.1-6.9-22.5-22.1 4.6-32.7L418.2 66.4c18.4-6.9 34.5 4.1 28.5 32.2z'/%3E%3C/svg%3E");
-        }
-
-       .social-icons .social-icon-youtube::before {
-         background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 576 512'%3E%3Cpath fill='%23ff0000' d='M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z'/%3E%3C/svg%3E");
-        }
-       img {
-         float: left;
-        }
-	</style>
 </head>
 <body>
  <div class="foto">
@@ -291,7 +43,7 @@
     
        <div class="container2">
   	      <div>
-  	        <img src="kub.jpg" width="200" height="350">
+  	        <img src="image/kub.jpg" width="200" height="350">
           </div>
   	    <div class="p2"> 
   	  	   <div class="p5"> Who are you? why are you at the camp?</div>
@@ -299,15 +51,15 @@
           <table class="p3" >
 	         <tr>
 	          <td style="text-align: center; width:200px">
-             <b><h3><span><img src="V2.jpg" /> My strengths</span> </h3></b>
+             <b><h3><span><img src="image/V2.jpg" /> My strengths</span> </h3></b>
 	        	 <div class="p4">Little overview</div>
 	          </td>
 	          <td style="text-align: center;">
-	        	 <b><h3><img src="V2.jpg" />My goal's</h3></b>
+	        	 <b><h3><img src="image/V2.jpg" />My goal's</h3></b>
 	        	 <div class="p4">Little overview</div>
 	          </td>
 	          <td style="text-align: center; width:200px" >
-             <div><b><h3><img src="V2.jpg" />My dream's</h3></b></div>
+             <div><b><h3><img src="image/V2.jpg" />My dream's</h3></b></div>
 	        	 <div class="p4">Little overview</div>
 	          </td>
 	         </tr>
@@ -348,8 +100,8 @@
           <a name="Interest's">
           <header class="b2"><h1>Interest's</h1></header>
          <div class="container5">
-           <div class="item_a" style="height: 130px; "><img src="V1.jpg" style="margin-left: 230px;margin-top: 35px;" >	</div>	
-		       <div class="item_b" style="height: 130px;" ><img src="V1.jpg" style="margin-left: 230px;margin-top: 35px;"> </div>
+           <div class="item_a" style="height: 130px; "><img src="image/V1.jpg" style="margin-left: 230px;margin-top: 35px;" >	</div>	
+		       <div class="item_b" style="height: 130px;" ><img src="image/V1.jpg" style="margin-left: 230px;margin-top: 35px;"> </div>
            <div class="item_c">
 	         	Interest1 <br>
 	         	Small Overview
